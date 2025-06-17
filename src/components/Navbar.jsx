@@ -139,7 +139,7 @@ const Navbar = () => {
           {/* Desktop Social Icons */}
           <div className="hidden md:flex items-center space-x-4">
             {[
-              { Icon: FaTwitter, href: 'https://twitter.com' },
+              { Icon: FaTwitter, href: 'https://x.com/MessinCr7sol?t=jJVVf6N46XWR9SSjtO2lyg&s=09' },
               { Icon: FaTelegram, href: 'https://t.me/messincr7official' }
             ].map(({ Icon, href }, i) => (
               <motion.a
@@ -241,7 +241,7 @@ const Navbar = () => {
                 }}
               >
                 {[
-                  { Icon: FaTwitter, href: 'https://twitter.com' },
+                  { Icon: FaTwitter, href: 'https://x.com/MessinCr7sol?t=jJVVf6N46XWR9SSjtO2lyg&s=09' },
                   { Icon: FaTelegram, href: 'https://t.me/messincr7official' }
                 ].map(({ Icon, href }, i) => (
                   <motion.a
