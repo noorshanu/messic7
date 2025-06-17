@@ -5,17 +5,17 @@ const cardData = [
   {
     title: 'TAX',
     value: '0% Tax',
-    img: '/NFT-Product-3.jpeg',
+    img: '/NFT-Products-5.jpeg',
   },
   {
     title: 'SUPPLY',
     value: '1 Billion',
-    img: '/NFT-Product-3.jpeg',
+    img: '/NFT-Products-11.jpeg',
   },
   {
     title: 'LP',
     value: '100% BURN',
-    img: '/NFT-Product-3.jpeg',
+    img: '/NFT-Products-13.jpeg',
   },
 ];
 
