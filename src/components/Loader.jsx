@@ -74,13 +74,18 @@ const Loader = ({ setLoading }) => {
 
       <div className="relative w-full max-w-md px-4">
         {/* Football animation */}
-        <motion.div
-          className="w-8 h-8 bg-white rounded-full absolute left-1/2 -translate-x-1/2 -top-10"
-          variants={ballVariants}
-          animate="animate"
-          style={{
-            background: "radial-gradient(circle at 30% 30%, white, #000000)",
-            boxShadow: "0 0 10px rgba(255,255,255,0.5)"
+        <motion.img
+          src="/football.webp"
+          alt="Loading"
+          className="w-8 h-8 object-cover rounded-full absolute left-1/2 -translate-x-1/2 -top-10"
+          animate={{
+            rotate: [0, 360],
+            y: [0, -20, 0]
+          }}
+          transition={{
+            repeat: Infinity,
+            duration: 1.2,
+            ease: "linear"
           }}
         />
 
