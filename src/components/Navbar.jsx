@@ -119,7 +119,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             {[
               { Icon: FaTwitter, href: 'https://twitter.com' },
-              { Icon: FaTelegram, href: 'https://t.me/messincr7' }
+              { Icon: FaTelegram, href: 'https://t.me/messincr7official' }
             ].map(({ Icon, href }, i) => (
               <motion.a
                 key={href}
@@ -221,7 +221,7 @@ const Navbar = () => {
               >
                 {[
                   { Icon: FaTwitter, href: 'https://twitter.com' },
-                  { Icon: FaTelegram, href: 'https://t.me/messincr7' }
+                  { Icon: FaTelegram, href: 'https://t.me/messincr7official' }
                 ].map(({ Icon, href }, i) => (
                   <motion.a
                     key={href}

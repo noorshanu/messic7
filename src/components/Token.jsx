@@ -1,6 +1,23 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 
 function Token() {
+  const [isHovered, setIsHovered] = useState(false);
+  const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const circleRef = useRef(null);
+
+  const handleMouseMove = (e) => {
+    const rect = circleRef.current.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 30; // max 15deg tilt
+    const y = ((e.clientY - rect.top) / rect.height - 0.5) * 30;
+    setTilt({ x: y, y: -x });
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    setTilt({ x: 0, y: 0 });
+  };
+
   return (
     <section className="flex items-center justify-center px-6 mt-10 lg:mt-10">
       <div className="text-center">
@@ -13,17 +30,49 @@ function Token() {
         
         <div className="w-full flex items-center justify-center">
           <div className="flex justify-center items-center h-64">
-            <div className="relative w-60 h-60">
+            <motion.div
+              ref={circleRef}
+              className="relative w-60 h-60 cursor-pointer"
+              style={{ perspective: 1000 }}
+              onMouseMove={handleMouseMove}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={handleMouseLeave}
+              animate={{
+                scale: isHovered ? 1.08 : 1,
+         
+                rotateX: tilt.x,
+                rotateY: tilt.y,
+              }}
+              transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+            >
               {/* Shadow layer */}
               <div className="absolute w-full h-full rounded-full bg-[#3d8f47] shadow-inner transform -translate-y-2"></div>
               {/* Main circle */}
               <div className="absolute w-full h-full rounded-full bg-[#4eaf5a]">
                 <div className="absolute inset-0 flex flex-col justify-center items-center">
-                  <span className="text-white text-2xl font-bold">100%</span>
-                  <span className="text-white text-2xl font-bold">Liquidity Pool</span>
+                  <motion.span
+                    initial={{ opacity: 0, y: 24, scale: 0.8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: true, amount: 0.6 }}
+                    animate={isHovered ? { scale: 1.2, opacity: 1, y: -8 } : {}}
+                    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+                    className="text-white text-2xl font-bold"
+                  >
+                    100%
+                  </motion.span>
+                  <motion.span
+                    initial={{ opacity: 0, y: 24, scale: 0.8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: true, amount: 0.6 }}
+                    animate={isHovered ? { scale: 1.15, opacity: 1, y: -4 } : {}}
+                    transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0.15 }}
+                    className="text-white text-2xl font-bold"
+                  >
+                    Liquidity Pool
+                  </motion.span>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
 
