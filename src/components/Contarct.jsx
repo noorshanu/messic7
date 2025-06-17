@@ -4,7 +4,7 @@ import { FaCopy, FaCheck } from "react-icons/fa";
 
 function Contarct() {
   const [copied, setCopied] = useState(false);
-  const contract = "92JXpsTbVipSbNiQyZkkWjJJt3HsXvf1573TyS2iAcsR";
+  const contract = "coming soon";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contract);
