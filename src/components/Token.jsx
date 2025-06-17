@@ -9,7 +9,7 @@ const cardData = [
   },
   {
     title: 'SUPPLY',
-    value: '100 Million',
+    value: '1 Billion',
     img: '/NFT-Product-3.jpeg',
   },
   {
