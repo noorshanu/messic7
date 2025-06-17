@@ -19,7 +19,7 @@ function Token() {
   };
 
   return (
-    <section className="flex items-center justify-center px-6 mt-10 lg:mt-10">
+    <section className="flex items-center justify-center px-6 mt-10 lg:mt-10" id="tokenomics">
       <div className="text-center">
         <h3 className="font-bold text-[32px] lg:text-[36px] xl:text-[40px] font-black mb-2 font-orbitron">
           Two legends. Two eras.

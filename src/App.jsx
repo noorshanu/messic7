@@ -18,8 +18,7 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/tokenomics" element={<div className="p-8">Tokenomics Content</div>} />
-              <Route path="/memes" element={<div className="p-8">Memes Content</div>} />
+
             </Routes>
           </div>
         )}

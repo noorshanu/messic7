@@ -21,7 +21,7 @@ function Memes() {
   const allNFTs = [...NFT_IMAGES, ...NFT_IMAGES];
 
   return (
-    <section className="flex flex-col items-center justify-center px-0 mt-10">
+    <section className="flex flex-col items-center justify-center px-0 mt-10" id='memes'>
       <div className="text-center mb-0">
         <h3 className="font-bold text-[32px] lg:text-[36px] xl:text-[40px] font-black mb-2 font-orbitron">
           MEMES

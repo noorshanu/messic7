@@ -96,22 +96,43 @@ const Navbar = () => {
           {/* Desktop Navigation Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['Home', 'Tokenomics', 'Memes'].map((item, i) => (
-                <motion.div
-                  key={item}
-                  custom={i}
-                  variants={navItemVariants}
-                  initial="hidden"
-                  animate="visible"
+              <motion.div
+                custom={0}
+                variants={navItemVariants}
+                initial="hidden"
+                animate="visible"
+              >
+                <Link 
+                  to="/"
+                  className="font-grandstander text-black hover:text-gray-600 px-3 py-2 transition-colors duration-300"
                 >
-                  <Link 
-                    to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                    className="font-grandstander text-black hover:text-gray-600 px-3 py-2 transition-colors duration-300"
-                  >
-                    {item}
-                  </Link>
-                </motion.div>
-              ))}
+                  Home
+                </Link>
+              </motion.div>
+              <motion.div
+                custom={1}
+                variants={navItemVariants}
+                initial="hidden"
+                animate="visible"
+              >
+                <a href='#tokenomics'
+                  className="font-grandstander text-black hover:text-gray-600 px-3 py-2 transition-colors duration-300"
+                >
+                  Tokenomics
+                </a>
+              </motion.div>
+              <motion.div
+                custom={2}
+                variants={navItemVariants}
+                initial="hidden"
+                animate="visible"
+              >
+                <a href='#memes'
+                  className="font-grandstander text-black hover:text-gray-600 px-3 py-2 transition-colors duration-300"
+                >
+                  Memes
+                </a>
+              </motion.div>
             </div>
           </div>
 
@@ -198,13 +219,13 @@ const Navbar = () => {
                       }
                     }}
                   >
-                    <Link 
-                      to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
+                    <a 
+                      href={item === 'Home' ? '/' : `#${item.toLowerCase()}`}
                       className="font-grandstander text-black hover:text-gray-600 py-2 block transition-colors duration-300"
                       onClick={toggleSidebar}
                     >
                       {item}
-                    </Link>
+                    </a>
                   </motion.div>
                 ))}
               </motion.div>
