@@ -19,7 +19,7 @@ function AboutUs() {
               viewport={{ once: true, amount: 0.7 }}
               transition={{ duration: 0.7, delay: 0.1, ease: 'easeOut' }}
             >
-              MEET MESSINCR7
+              MEET $MSNCR7
             </motion.h1>
 
             <motion.p
@@ -29,7 +29,7 @@ function AboutUs() {
               viewport={{ once: true, amount: 0.7 }}
               transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
             >
-              MESSINCR7 isn&apos;t just a token—it&apos;s a movement where football legends and crypto champions unite! Powered by Solana, inspired by the GOATs Messi and Ronaldo, MESSINCR7 brings the thrill of the pitch to the blockchain. Join a community that plays to win, celebrates every goal, and aims for legendary gains. Fast, fun, and full of passion—this is the memecoin for true fans and future champions. Are you ready to score big with us?
+             $MSNCR7 isn&apos;t just a token—it&apos;s a movement where football legends and crypto champions unite! Powered by Solana, inspired by the GOATs Messi and Ronaldo,$MSNCR7 brings the thrill of the pitch to the blockchain. Join a community that plays to win, celebrates every goal, and aims for legendary gains. Fast, fun, and full of passion—this is the memecoin for true fans and future champions. Are you ready to score big with us?
             </motion.p>
           </motion.div>
           <motion.div
@@ -40,11 +40,15 @@ function AboutUs() {
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
           >
             <div className="relative">
-              <motion.img
-                src="NFT-Products-15.jpeg"
-                alt="MessinCR7 NFT"
-                className="rounded-3xl h-[400px] w-[400px] object-cover mx-auto shadow-2xl"
-                initial={{ scale: 0.9, rotate: -8 }}
+              <motion.video
+                src="rolan.MP4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="rounded-3xl h-[400px] w-[450px] object-cover mx-auto shadow-2xl border-2 border-[#031faf]"
+                initial={{ scale: 0.9, rotate: -2, opacity: 0 }}
+                animate={{ opacity: 1 }}
                 whileHover={{ scale: 1.03, rotate: 0, boxShadow: '0 8px 32px #031faf55' }}
                 transition={{ type: 'spring', stiffness: 200, damping: 18 }}
               />

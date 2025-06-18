@@ -8,30 +8,30 @@ function BorderSec() {
 
 <div className=' '>
 <Marquee  className=' '>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
     
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>    MESSINCR7 </h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>   $MSNCR7 </h1>
     <h1 className='font-snow text-sad text-4xl font-bold text-[#f5c733] mx-2'><BiFootball /></h1>
-    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'>MESSINCR7</h1>
+    <h1 className='font-grandstander text-4xl font-bold text-white mx-2'> $MSNCR7</h1>
 
     </Marquee>
 </div>

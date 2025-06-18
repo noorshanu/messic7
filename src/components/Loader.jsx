@@ -69,7 +69,7 @@ const Loader = ({ setLoading }) => {
           textShadow: "0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14"
         }}
       >
-        MESSINCR7
+       $MSNCR7
       </motion.h1>
 
       <div className="relative w-full max-w-md px-4">

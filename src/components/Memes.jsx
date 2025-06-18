@@ -27,7 +27,7 @@ function Memes() {
           MEMES
         </h3>
         <p className="font-medium leading-7 text-lg xl:text-xl mx-auto font-grandstander mb-0">
-          Everyone loves MESSINCR7
+          Everyone loves $MSNCR7
         </p>
       </div>
 

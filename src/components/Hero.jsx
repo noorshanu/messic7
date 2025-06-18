@@ -6,7 +6,7 @@ function Hero() {
   const [copySuccess, setCopySuccess] = useState(false);
 
   const handleCopyClick = () => {
-    navigator.clipboard.writeText('$MessinCr7');
+    navigator.clipboard.writeText('oxajdsjhfgjsdgfjhdsfkjhsdkjfkdhfdsfkhdsk');
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
   };
@@ -33,7 +33,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Introducing $MessinCr7
+            Introducing $MSNCR7
           </motion.h2>
           <motion.div 
             className="w-32 h-1 bg-gradient-to-r from-cyan-500 to-orange-500 mb-6"
@@ -58,7 +58,7 @@ function Hero() {
           >
             <div className="font-semibold flex flex-row items-center justify-center text-center space-x-5 px-3 md:px-6 border border-[#9e782c] shadow-[1px_1px_0_#9e782c] bg-yellow-50 text-black text-[17px] py-3 rounded-xl hover:shadow-lg transition-all duration-300">
               <span>CA:</span>
-              <span>$MessinCr7</span>
+              <span>axdfdhbfjhdbsjbkjfsdkjfkdsjfkjds</span>
               <motion.button 
                 onClick={handleCopyClick}
                 className="font-semibold cursor-pointer px-4 uppercase border border-[#9e782c] shadow-[2px_2px_0_#9e782c] active:shadow-[0.5px_0.5px_0_#9e782c] text-white transition-all ease-linear duration-100 bg-yellow-500/70 text-[14px] md:text-[17px] py-2 rounded-xl hover:bg-yellow-500"

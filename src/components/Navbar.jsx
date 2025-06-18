@@ -89,7 +89,7 @@ const Navbar = () => {
             animate="visible"
           >
             <Link to="/" className="font-grandstander text-black text-2xl font-bold hover:text-gray-600 transition-colors duration-300">
-              MESSINCR7
+              MSNCR7
             </Link>
           </motion.div>
 
