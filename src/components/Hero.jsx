@@ -6,7 +6,7 @@ function Hero() {
   const [copySuccess, setCopySuccess] = useState(false);
 
   const handleCopyClick = () => {
-    navigator.clipboard.writeText('oxajdsjhfgjsdgfjhdsfkjhsdkjfkdhfdsfkhdsk');
+    navigator.clipboard.writeText('EfKc6ad9VS6VMEP9LVHUT42o5fH2P1mG3kt7Keddpump');
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
   };
@@ -58,7 +58,7 @@ function Hero() {
           >
             <div className="font-semibold flex flex-row items-center justify-center text-center space-x-5 px-3 md:px-6 border border-[#9e782c] shadow-[1px_1px_0_#9e782c] bg-yellow-50 text-black text-[17px] py-3 rounded-xl hover:shadow-lg transition-all duration-300">
               <span>CA:</span>
-              <span>axdfdhbfjhdbsjbkjfsdkjfkdsjfkjds</span>
+              <span>EfKc6ad....Keddpump</span>
               <motion.button 
                 onClick={handleCopyClick}
                 className="font-semibold cursor-pointer px-4 uppercase border border-[#9e782c] shadow-[2px_2px_0_#9e782c] active:shadow-[0.5px_0.5px_0_#9e782c] text-white transition-all ease-linear duration-100 bg-yellow-500/70 text-[14px] md:text-[17px] py-2 rounded-xl hover:bg-yellow-500"
